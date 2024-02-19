@@ -174,7 +174,7 @@ resource "aws_instance" "himani_terraform" {
 resource "aws_instance" "himani_database" {
   ami           = "ami-03f4878755434977f"
   instance_type = "t2.micro"
-  subnet_id       = aws_subnet.private_mern.id
+  subnet_id       = aws_subnet.private_mern_himani.id
   key_name        = "himani_personal"  # Change to your key pair
   vpc_security_group_ids  = [aws_security_group.mern_security_group.id]
 #   vpc_security_group_ids = [aws_security_group.adarsh_terraform.id]  # Reference the existing security group
