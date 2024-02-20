@@ -25,7 +25,12 @@
 #### 1. Ansible Configuration:
 #### Configure Ansible to communicate with the AWS EC2 instances.
 #### ![image](https://github.com/himani0550/Terraform_assignment/assets/77041503/8e85337e-0b0a-4559-93ab-b27115aa477f)
-#### 
+#### Kindly refrer to web_deployment.yaml file in repository.
+#### Kindly find below screenshot for running backend/frontend for Travel memory application.
+#### ![Screenshot 2024-02-19 224801](https://github.com/himani0550/Terraform_assignment/assets/77041503/0eac1162-8895-45d7-a22f-8f39794b1123)
+#### ![Screenshot 2024-02-19 224521](https://github.com/himani0550/Terraform_assignment/assets/77041503/be76e143-6706-4494-8ede-6732254dd2d8)
+
+
 
 
 
