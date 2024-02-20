@@ -1,5 +1,5 @@
 # Terraform_assignment
-### Part 1
+### Part 1:  Infrastructure Setup with Terraform
 #### 1. AWS Setup and Terraform Initialization
 #### Have set up AWS cli and installed terraform.
 #### Kindly find main.tf terraform script to take care of all metioned points in part one.
