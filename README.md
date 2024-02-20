@@ -29,6 +29,7 @@
 #### Kindly find below screenshot for running backend/frontend for Travel memory application.
 #### ![Screenshot 2024-02-19 224801](https://github.com/himani0550/Terraform_assignment/assets/77041503/0eac1162-8895-45d7-a22f-8f39794b1123)
 #### ![Screenshot 2024-02-19 224521](https://github.com/himani0550/Terraform_assignment/assets/77041503/be76e143-6706-4494-8ede-6732254dd2d8)
+#### ![Screenshot 2024-02-19 224845](https://github.com/himani0550/Terraform_assignment/assets/77041503/df7c3997-d9d8-4343-8c12-6760286421c5)
 #### ![image](https://github.com/himani0550/Terraform_assignment/assets/77041503/e6b4ca77-8467-4f6a-9292-48c8139634c6)
 
 
