@@ -3,7 +3,7 @@
 #### 1. AWS Setup and Terraform Initialization
 #### Have set up AWS cli and installed terraform.
 #### Kindly find below terraform script to take care of all metioned points 1 in script 1.
-terraform {
+/* terraform {
   required_providers {
     aws = {
       source = "hashicorp/aws"
@@ -136,7 +136,7 @@ resource "aws_vpc_security_group_ingress_rule" "allow_tls_ipv4_22" {
 
 resource "aws_vpc_security_group_ingress_rule" "allow_tls_ipv4_80" {
   security_group_id = aws_security_group.mern_security_group.id
-#   cidr_ipv4         = aws_vpc.vpc_mern.cidr_block
+
   cidr_ipv4 = "0.0.0.0/0"
   from_port         = 80
   ip_protocol       = "tcp"
@@ -145,7 +145,7 @@ resource "aws_vpc_security_group_ingress_rule" "allow_tls_ipv4_80" {
 
 resource "aws_vpc_security_group_ingress_rule" "allow_tls_ipv4_3000" {
   security_group_id = aws_security_group.mern_security_group.id
-#   cidr_ipv4         = aws_vpc.vpc_mern.cidr_block
+
   cidr_ipv4 = "0.0.0.0/0"
   from_port         = 3000
   ip_protocol       = "tcp"
@@ -154,7 +154,7 @@ resource "aws_vpc_security_group_ingress_rule" "allow_tls_ipv4_3000" {
 
 resource "aws_vpc_security_group_ingress_rule" "allow_tls_ipv4_3001" {
   security_group_id = aws_security_group.mern_security_group.id
-#   cidr_ipv4         = aws_vpc.vpc_mern.cidr_block
+
   cidr_ipv4 = "0.0.0.0/0"
   from_port         = 3001
   ip_protocol       = "tcp"
@@ -169,7 +169,7 @@ resource "aws_instance" "himani_terraform" {
   subnet_id       = aws_subnet.public_mern_himani.id
   key_name        = "himani_personal"  # Change to your key pair
   vpc_security_group_ids  = [aws_security_group.mern_security_group.id]
-#   vpc_security_group_ids = [aws_security_group.adarsh_terraform.id]  # Reference the existing security group
+
 
   tags = {
     Name = "himani_mern_terraform"
@@ -182,7 +182,7 @@ resource "aws_instance" "himani_database" {
   subnet_id       = aws_subnet.private_mern_himani.id
   key_name        = "himani_personal"  # Change to your key pair
   vpc_security_group_ids  = [aws_security_group.mern_security_group.id]
-#   vpc_security_group_ids = [aws_security_group.adarsh_terraform.id]  # Reference the existing security group
+
 
   tags = {
     Name = "himani_database_terraform"
@@ -191,6 +191,6 @@ resource "aws_instance" "himani_database" {
 
 output "public_ip_instance" {
     value = aws_instance.himani_terraform.public_ip
-}
+} */
 
 
