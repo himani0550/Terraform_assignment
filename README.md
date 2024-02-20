@@ -21,6 +21,12 @@
 #### ![image](https://github.com/himani0550/Terraform_assignment/assets/77041503/2289df7e-f05d-4f24-8dff-772faab8a9bc)
 #### 5. Resource output.
 #### ![Screenshot 2024-02-19 214417](https://github.com/himani0550/Terraform_assignment/assets/77041503/e97b6c37-1bd9-4274-8ca3-026fbd21fda3)
+### Part 2: Configuration and Deployment with Ansible
+#### 1. Ansible Configuration:
+#### Configure Ansible to communicate with the AWS EC2 instances.
+#### ![image](https://github.com/himani0550/Terraform_assignment/assets/77041503/8e85337e-0b0a-4559-93ab-b27115aa477f)
+#### 
+
 
 
 
