@@ -1,4 +1,4 @@
-![image](https://github.com/himani0550/Terraform_assignment/assets/77041503/28406bcc-7b41-42ad-8dba-f0828ddafb8f)# Terraform_assignment
+# Terraform_assignment
 ### Part 1
 #### 1. AWS Setup and Terraform Initialization
 #### Have set up AWS cli and installed terraform.
@@ -16,6 +16,7 @@
 #### ![image](https://github.com/himani0550/Terraform_assignment/assets/77041503/f48430e3-4119-47d5-ba58-ea7a358da86d)
 #### ![image](https://github.com/himani0550/Terraform_assignment/assets/77041503/ad879328-eac1-4b62-9328-b7e9c4cef5a8)
 #### ![image](https://github.com/himani0550/Terraform_assignment/assets/77041503/236ba473-5a67-47a4-b7aa-d4c813d35f40)
+#### ![image](https://github.com/himani0550/Terraform_assignment/assets/77041503/28406bcc-7b41-42ad-8dba-f0828ddafb8f)
 #### 4. Security Groups and IAM Roles:
 #### ![image](https://github.com/himani0550/Terraform_assignment/assets/77041503/2289df7e-f05d-4f24-8dff-772faab8a9bc)
 #### 5. Resource output.
